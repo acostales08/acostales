@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface Link {
+type Link = {
   link: string;
   href: string;
 }
