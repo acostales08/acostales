@@ -8,7 +8,7 @@ const MainPage: React.FC = () => {
         <NavBar/>
         <HomeContent/>
         <AboutSection />
-        <SkillSection logo={undefined}/>
+        <SkillSection />
         <ProjectSection/>
         <ContactSection/>
         <Footer/>

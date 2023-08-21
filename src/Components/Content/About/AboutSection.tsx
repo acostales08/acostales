@@ -17,7 +17,7 @@ const AboutSection: React.FC = () => {
                 <img src="move.gif" alt=""  className='w-[350px] h-[350px]'/>
             </div>
             <div className=" w-full h-full text-[#EEEEEE] p-10">
-                <p className=" text-2xl">
+                <p className=" text-1xl">
                     <TypedText strings={strings} typeSpeed={10} loop={false} /> 
                 </p>
             </div>
