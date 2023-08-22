@@ -7,7 +7,7 @@ const ProjectSection: React.FC = () => {
   return (
     <motion.div 
         whileInView={{ x: 0, transition: { duration: 0.4 }, opacity: 1 }}
-        initial={{ x: 500, opacity: 0 }}  
+        initial={{ x: 200, opacity: 0 }}  
         className='h-auto w-full bg-gradient-to-r border-[#404144] from-[#1F2022] via-[#212225] to-[#121212] rounded-l-[100px] py-16 px-16'>
         <div className="w-full h-16  flex justify-center items-center">
         <motion.div
