@@ -10,7 +10,7 @@ export const Skillitems = [
         img: <AiFillHtml5 size={90} className='text-[#393E46]'/>
     },
     {
-        img: <FaCss3Alt size={90} className='text-[#393E46]'/>
+        img: <FaCss3Alt size={80} className='text-[#393E46]'/>
     },
     {
         img: <SiMui size={80} className='text-[#393E46]'/>
