@@ -7,12 +7,12 @@ import { Button } from '@mui/material';
 
 const HomeContent: React.FC = () => {
 
-  const strings = ['Web Developer', 'Welcome to Portfolio'];
+  const strings = ['Web Developer','Aspiring Fullstack Developer', 'Welcome to Portfolio'];
 
   return (
     <div className='h-screen w-full pt-10 bg-gradient-to-r border-r-1 from-[#121212] via-[#212225] to-[#1F2022] rounded-br-[100px] z-10 '>
         <div className="container mx-auto w-full h-full flex flex-col md:flex-row">
-          <div className=" w-full h-[50%] md:h-full flex justify-start items-center  px-3 md:pl-24 order-2 md:order-1">
+          <div className=" w-full h-[50%] md:h-full flex justify-center md:justify-start items-center  px-3 md:pl-24 order-2 md:order-1">
             <div className="text-[#EEEEEE] text-center md:text-start">
             <motion.div
               whileInView={{ y: 0, transition: { duration: 0.8 }, opacity: 1 }}
@@ -27,7 +27,7 @@ const HomeContent: React.FC = () => {
               <motion.div
               whileInView={{ x: 0, transition: { duration: 0.8, delay: 0.6 }, opacity: 1 }}
               initial={{ x: -150, opacity: 0 }}>
-              <h4 className="text-3xl md:text-5xl font-semibold">
+              <h4 className="text-3xl md:text-5xl font-semibold text-[#FFD369] w-[700px]">
                 <TypedText strings={strings} typeSpeed={50} loop={true} />  
               </h4>
               </motion.div>
@@ -35,7 +35,7 @@ const HomeContent: React.FC = () => {
               whileInView={{ y: 0, transition: { duration: 1.5 }, opacity: 1 }}
               initial={{ y: 150, opacity: 0 }}
               >
-                <p className=" w-full text-6xl font-semibold">I Build & Design Web Interfaces.</p>          
+                <p className=" w-full md:text-6xl font-semibold">I Build & Design Web Interfaces.</p>          
               </motion.div>
               <motion.div
                  whileInView={{
@@ -45,15 +45,13 @@ const HomeContent: React.FC = () => {
                 }}
                 initial={{ opacity: 0, scale: 0.5 }}
               >
-              <Button variant='contained' size='large' style={{
-                backgroundColor: '#FFD369',
-                color: '#999292',
+                <Button variant='contained' style={{
+                backgroundColor: '#282F44',
+                color: '#fffff',
                 marginTop: '15px',
+                marginBottom: '30px',
                 fontSize: '16px',
-                fontWeight: '800'
-              }}>
-                Download CV
-              </Button>
+              }}>Download CV</Button>
               </motion.div>
 
             </div>
