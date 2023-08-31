@@ -22,7 +22,7 @@ const AboutSection: React.FC = () => {
         </div>
         <div className="mx- flex flex-col md:flex-row mt-10 container mx-auto ">
             <div className="w-full md:w-[40%] h-full flex justify-center items-center">
-                <img src="move.gif" alt=""  className='w-[275px] h-[275px] md:w-[350px] md:h-[350px] mb-12'/>
+                <img src="\move.gif" alt=""  className='w-[275px] h-[275px] md:w-[350px] md:h-[350px] mb-12'/>
             </div>
             <div className=" w-full h-[450px] md:h-full text-[#EEEEEE] p-4 md:p-10 ">
                 <p className=" text-1xl md:text-2xl">

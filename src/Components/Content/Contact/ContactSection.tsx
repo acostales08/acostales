@@ -36,7 +36,7 @@ const ContactSection: React.FC = () => {
   return (
     <motion.div 
     whileInView={{ x: 0, transition: { duration: 0.4 }, opacity: 1 }}
-    initial={{ x: -50, opacity: 0 }}  className='h-auto w-full bg-gradient-to-r border-r-1 from-[#121212] via-[#212225] to-[#1F2022] rounded-r-[100px] py-16 px-4 md:px-20'>
+    initial={{ x: -50, opacity: 0 }}  className='h-auto w-full bg-gradient-to-r border-r-1 from-[#121212] via-[#212225] to-[#1F2022] rounded-r-[100px] py-16 px-2 md:px-20'>
         <div className="w-full h-16  flex justify-center items-center ">
         <motion.div
           whileInView={{ y: 0, transition: { duration: 0.8 }, opacity: 1 }}
@@ -48,7 +48,7 @@ const ContactSection: React.FC = () => {
         </div>
         <div className="h-auto w-full flex justify-center items-start flex-col md:flex-row ">
             <div className="h-full w-full flex justify-center items-center px-10 ">
-                <div className=" w-[80%] text-white text-1xl pb-2 mb:pb-20 border border-slate-800 px-4 rounded-md bg-[#282b31] mt-12">
+                <div className="w-full md:w-[80%] text-white text-1xl pb-2 mb:pb-20 border border-slate-800 px-4 rounded-md bg-[#282b31] mt-12">
                   <div className="h-20 flex justify-start items-center text-2xl ">
                     <h2>Contact Information</h2>
                   </div>

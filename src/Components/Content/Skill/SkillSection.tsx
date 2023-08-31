@@ -24,7 +24,7 @@ const SkillSection: React.FC = () => {
         <div className=" mt-10 h-auto md:h-[50vh] w-full flex flex-wrap gap-4 p-5 justify-center items-center">
             {Skillitems.map(({img}, index) => (
               <motion.div whileHover={{ scale: 1.2 }} >
-                <div key={index} className="flex justify-center items-center w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-2xl bg-[#EEEEEE] shadow-xl">
+                <div key={index} className="flex justify-center items-center w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-2xl bg-[#272729] shadow-xl opacity-50">
                     {img}
                 </div>  
                 </motion.div>              

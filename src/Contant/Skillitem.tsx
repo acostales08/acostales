@@ -7,43 +7,43 @@ import { SiJavascript, SiPhp, SiMysql, SiReact, SiTypescript, SiVisualstudio, Si
 
 export const Skillitems = [
     {
-        img: <AiFillHtml5 size={70} className='text-[#393E46]'/>
+        img: <AiFillHtml5 size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <FaCss3Alt size={70} className='text-[#393E46]'/>
+        img: <FaCss3Alt size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <SiMui size={70} className='text-[#393E46]'/>
+        img: <SiMui size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <SiTailwindcss size={70} className='text-[#393E46]'/>
+        img: <SiTailwindcss size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <FaBootstrap size={70} className='text-[#393E46]'/>
+        img: <FaBootstrap size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <SiJavascript size={70} className='text-[#393E46]'/>
+        img: <SiJavascript size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <SiTypescript size={70} className='text-[#393E46]'/>
+        img: <SiTypescript size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <SiReact size={70} className='text-[#393E46]'/>
+        img: <SiReact size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <SiPhp size={70} className='text-[#393E46]'/>
+        img: <SiPhp size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <SiMysql size={70} className='text-[#393E46]'/>
+        img: <SiMysql size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <SiVisualstudio size={70} className='text-[#393E46]'/>
+        img: <SiVisualstudio size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <BsGit size={70} className='text-[#393E46]'/>
+        img: <BsGit size={70} className='text-[#5e6672]'/>
     },
     {
-        img: <AiFillGithub size={70} className='text-[#393E46]'/>
+        img: <AiFillGithub size={70} className='text-[#5e6672]'/>
     },
 
 ];
