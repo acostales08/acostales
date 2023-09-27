@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/acostales/static/css/main.ce518d98.css",
+    "main.js": "/acostales/static/js/main.5d7de185.js",
+    "index.html": "/acostales/index.html",
+    "main.ce518d98.css.map": "/acostales/static/css/main.ce518d98.css.map",
+    "main.5d7de185.js.map": "/acostales/static/js/main.5d7de185.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce518d98.css",
+    "static/js/main.5d7de185.js"
+  ]
+}
