@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/acostales/static/css/main.ce518d98.css",
-    "main.js": "/acostales/static/js/main.5d7de185.js",
+    "main.js": "/acostales/static/js/main.c00e8a1b.js",
     "index.html": "/acostales/index.html",
     "main.ce518d98.css.map": "/acostales/static/css/main.ce518d98.css.map",
-    "main.5d7de185.js.map": "/acostales/static/js/main.5d7de185.js.map"
+    "main.c00e8a1b.js.map": "/acostales/static/js/main.c00e8a1b.js.map"
   },
   "entrypoints": [
     "static/css/main.ce518d98.css",
-    "static/js/main.5d7de185.js"
+    "static/js/main.c00e8a1b.js"
   ]
 }
