@@ -81,7 +81,7 @@ const HomeContent: React.FC = () => {
             <div className="w-[200px] h-[200px] md:w-[350px] md:h-[350px] rounded-full bg-white overflow-hidden mt-8 md:mt-0 shadow-lg floating-element" style={{
               boxShadow: "0 4px 6px 1px rgba(240, 240, 240, 0.3), 0 2px 4px 1px rgba(240, 240, 240, 0.08)"
             }}>
-              <img src="public/prof.png" alt="" className='w-[200px] h-[200px] md:w-[350px] md:h-[350px]' />
+              <img src="prof.png" alt="" className='w-[200px] h-[200px] md:w-[350px] md:h-[350px]' />
             </div>
             </motion.div>
           </div>
