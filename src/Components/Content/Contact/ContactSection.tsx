@@ -52,18 +52,30 @@ const ContactSection: React.FC = () => {
                   <div className="h-20 flex justify-start items-center text-2xl ">
                     <h2>Contact Information</h2>
                   </div>
-                  <div className=" w-full h-auto md:h-14 flex justify-start items-center gap-5 ">
+                  <div className="flex gap-2 py-3">
                     <BiSolidPhone size={25}/>
-                    <p className="text-start">09678333488</p>
+                    <p className="text-start">09678333488</p>                   
+                  </div>
+                  <div className="flex gap-2 py-3">
+                    <MdMarkEmailUnread size={20}/>
+                    <p className="text-start">costalesarnel08@gmail.com</p>                  
+                  </div>
+                  <div className="flex gap-2 py-3 pb-8">
+                    <MdLocationPin size={25}/>
+                    <p className="text-start">Brgy. Cacarong Matanda, Pandi Bulacan 3014</p>                  
+                  </div>
+                  {/* <div className=" w-full h-auto md:h-14 flex justify-start items-center gap-5 ">
+                    <BiSolidPhone size={25}/>
+                    <p className="border text-start">09678333488</p>
                   </div>
                   <div className=" w-full h-auto md:h-14 flex justify-start items-center gap-5 ">
                     <MdMarkEmailUnread size={25}/>
-                    <p className="text-start">costalesarnel08@gmail.com</p>
+                    <p className="border text-start">costalesarnel08@gmail.com</p>
                   </div>
                   <div className=" w-full h-auto md:h-14 flex justify-start items-center gap-5 ">
                     <MdLocationPin size={25}/>
-                    <p className="text-start">Brgy. Cacarong Matanda, Pandi Bulacan 3014</p>
-                  </div>
+                    <p className=" border text-start">Brgy. Cacarong Matanda, Pandi Bulacan 3014</p>
+                  </div> */}
                 </div>
             </div>
             <form ref={form} onSubmit={sendEmail} className=" h-full w-full overflow-hidden relative text-white p-10 ">
