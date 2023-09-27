@@ -7,6 +7,17 @@ import { Button } from '@mui/material';
 
 const HomeContent: React.FC = () => {
 
+  const handleDownloadCV = () => {
+    const cvFileUrl = 'my-CV.pdf';
+    const anchor = document.createElement('a');
+    anchor.href = cvFileUrl;
+    anchor.download = 'my-CV.pdf'; 
+    anchor.style.display = 'none';
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+  };
+
   const strings = ['Web Developer','Aspiring Fullstack Developer', 'Welcome to Portfolio'];
 
   return (
@@ -45,7 +56,9 @@ const HomeContent: React.FC = () => {
                 }}
                 initial={{ opacity: 0, scale: 0.5 }}
               >
-                <Button variant='contained' style={{
+                <Button variant='contained'
+                onClick={handleDownloadCV}
+                style={{
                 backgroundColor: '#282F44',
                 color: '#fffff',
                 marginTop: '15px',
@@ -68,7 +81,7 @@ const HomeContent: React.FC = () => {
             <div className="w-[200px] h-[200px] md:w-[350px] md:h-[350px] rounded-full bg-white overflow-hidden mt-8 md:mt-0 shadow-lg floating-element" style={{
               boxShadow: "0 4px 6px 1px rgba(240, 240, 240, 0.3), 0 2px 4px 1px rgba(240, 240, 240, 0.08)"
             }}>
-              <img src="prof.png" alt="" className='w-[200px] h-[200px] md:w-[350px] md:h-[350px]' />
+              <img src="public/prof.png" alt="" className='w-[200px] h-[200px] md:w-[350px] md:h-[350px]' />
             </div>
             </motion.div>
           </div>

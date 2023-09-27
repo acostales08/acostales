@@ -5,13 +5,13 @@ import NavBar from '../Components/NavBar/navBar'
 const MainPage: React.FC = () => {
   return (
     <div className="h-auto w-full bg-[#121212] overflow-hidden ">
-        <NavBar/>
-         <HomeContent/>
+      <NavBar/>
+        <HomeContent/>
         <AboutSection />
         <SkillSection />
         <ProjectSection/>
         <ContactSection/>
-       <Footer/>
+      <Footer/>
     </div>
 
   )
